@@ -1,49 +1,78 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing
 
+> This repo contains the assigment details of the bike sharing project by UpGrad
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Conclusions](#conclusions)
+- [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+
+This project follow the following steps
+
+- Loading the data and doing initial analysis to understand that there are no missing values
+- divide the variables into categorical and numeric variables
+- do exploratory data analysis to understand the data
+- conevert the categorical variables to dummy variables
+- splt the data into train and test set
+- scale the numeric variableds
+- build a coars grain model by using REF
+- fine tune the model by using statsmodel with the help of p-value and VIF
+- do a residual analysis on the data
+- and finally run the model on the test set and find out the r-squared value
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+
+To predict the demand the following variables are important
+
+- temp
+- year
+- const
+- Sun
+- workingday
+- s_mist
+- s_spring
+- s_light_rain
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+
+- numpy
+- pandas
+- seaborn
+- statsmodel
+- sklearn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
+[1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
+
+@article{
+year={2013},
+issn={2192-6352},
+journal={Progress in Artificial Intelligence},
+doi={10.1007/s13748-013-0040-3},
+title={Event labeling combining ensemble detectors and background knowledge},
+url={http://dx.doi.org/10.1007/s13748-013-0040-3},
+publisher={Springer Berlin Heidelberg},
+keywords={Event labeling; Event detection; Ensemble learning; Background knowledge},
+author={Fanaee-T, Hadi and Gama, Joao},
+pages={1-15}
+}
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
 
+Created by [@tikluganguly] - feel free to contact me!
 
 <!-- Optional -->
 <!-- ## License -->
